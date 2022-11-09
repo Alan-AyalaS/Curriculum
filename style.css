@@ -369,6 +369,10 @@ main .experiencia .scrum, .frontend--developer{
     }
 
     aside {
+        width: 98%;
+    }
+
+    main {
         width: 100%;
     }
 }
