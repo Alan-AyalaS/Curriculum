@@ -241,7 +241,7 @@ main .experiencia .scrum, .frontend--developer{
 }
 
 .experiencia div {
-    margin-right: 30px;
+    min-width: 160px;
 }
 
 .experiencia .periodo--materia{
