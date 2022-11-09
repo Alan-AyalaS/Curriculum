@@ -24,7 +24,6 @@ body {
 
 aside {
     background-color: var(--color_uno);
-    width: 30%;
     padding: 35px;
     padding-bottom: 0;
     height: auto;
@@ -205,7 +204,6 @@ aside a {
 main {
     background-color: var(--color_dos);
     padding-top: 20px;
-    width: 100%;
     padding: 30px 30px 0px 30px;
 }
 
@@ -366,13 +364,5 @@ main .experiencia .scrum, .frontend--developer{
     body {
         display: flex;
         flex-direction: column;
-    }
-
-    aside {
-        width: 98%;
-    }
-
-    main {
-        width: 100%;
     }
 }
