@@ -174,7 +174,7 @@ aside a {
 
 .idiomas .japones div p:first-child {
     background-color: var(--color_dos);
-    color: var(--color_tres);
+    color: black;
     text-align: center;
     width: 13%;
 }
@@ -253,6 +253,7 @@ main .experiencia .scrum, .frontend--developer{
 
 .experiencia .periodo--materia p{
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .experiencia h3{
@@ -272,6 +273,7 @@ main .experiencia .scrum, .frontend--developer{
 .habilidades .texto {
     width: 20%;
     margin-right: 100px;
+    font-weight: bold;
 }
 
 .habilidades .texto_java {
@@ -349,6 +351,7 @@ main .experiencia .scrum, .frontend--developer{
     margin-bottom: 10px;
     margin-right: 10px;
     font-weight: bold;
+    
 }
 
 .curso_info {
