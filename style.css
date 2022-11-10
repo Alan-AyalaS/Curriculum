@@ -387,4 +387,8 @@ main .experiencia .scrum, .frontend--developer{
         display: flex;
         flex-direction: column;
     }
+
+    button {
+        color: #EAE0D5;
+    }
 }
