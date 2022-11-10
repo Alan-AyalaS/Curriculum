@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
     <link rel="stylesheet" href="style.css">
     <title>Curriculum Alan Ayala</title>
 </head>
@@ -85,7 +86,7 @@
                     </div>
                 </article>
             </section>
-            <section class="extra_info">
+            <section class="extra_cert">
                     <ul>
                         <h2>ADITIONAL CERTIFICATES</h2>
                         <li class="espacio">Curso de Computación Básica</li>
@@ -94,6 +95,9 @@
                         <li>Curso de Gestión Efectiva del Tiempo</li>
                     </ul>
             </section>
+            <section class="extra_info">
+                <button onclick="mostrar()">EXTRA INFO</button>
+             </section>
     </aside>
     <main>
         <section class="perfil">
@@ -265,5 +269,16 @@
             </article>
          </section>
     </main>
+    <script>
+
+        function mostrar(){
+            Swal.fire({
+                html: '<h1 style="color:#5E503F">Extra Info</h1><br><p style="font-size:20px">Pronouns: He / Him</p></br><p>Posibilidad para cambiar de residencia</p><br><p>Posibilidad para Viajar</p>',
+                icon: 'info',
+                iconColor:'#a08263',
+                confirmButtonText: 'OK'
+            });
+        }
+    </script>
 </body>
 </html>

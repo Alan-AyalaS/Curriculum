@@ -185,20 +185,42 @@ aside a {
     width: 87%;
 }
 
-.extra_info h2{
+.extra_cert h2{
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.extra_info li {
+.extra_cert li {
     font-size: 2rem;
     color: var(--color_dos);
     font-family: var(--fuente_tres);
     margin-left: 20px;
 }
 
-.extra_info .espacio {
+.extra_cert .espacio {
     margin-bottom: 35px;
+}
+
+.extra_info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.extra_info button {
+    background-color: var(--color_dos);
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: var(--fuente_tres);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.extra_info  button:hover {
+    background-color: #a08263;
+    color: #EAE0D5;
 }
 
 main {
