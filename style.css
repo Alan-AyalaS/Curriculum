@@ -389,6 +389,10 @@ main .experiencia .scrum, .frontend--developer{
     }
 
     button {
-        color: #EAE0D5;
+        color: black;
+    }
+    button:hover {
+        background-color: #a08263;
+        color: var(--color_dos);
     }
 }
