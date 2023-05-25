@@ -24,7 +24,7 @@ body {
 
 aside {
     background-color: var(--color_uno);
-    padding: 45px;
+    padding: 35px;
     padding-bottom: 0;
     height: auto;
     color: var(--color_dos);
@@ -132,16 +132,7 @@ aside a {
 }
 
 .facu .carrera {
-    font-size: 3rem;
-}
-
-.facu .facu_nombre {
-    font-size: 3rem;
-}
-
-.facu .carrera_desc {
-    font-size: 2rem;
-    color: #eae0d5a9;
+    font-size: 1.5rem;
 }
 
 .idiomas {
@@ -159,17 +150,6 @@ aside a {
 .idiomas div p {
     font-size: 1rem;
 }
-
-.idiomas .spanish div {
-    display: flex;
-}
-
-.idiomas .spanish div p:first-child {
-    background-color: var(--color_dos);
-    color: black;
-    text-align: center;
-    width: 100%;    
-} 
 
 .idiomas .ingles div {
     display: flex;
@@ -246,8 +226,7 @@ aside a {
 main {
     background-color: var(--color_dos);
     padding-top: 20px;
-    padding: 30px 100px 0px 50px;
-    width: 100%;
+    padding: 30px 30px 0px 30px;
 }
 
 
@@ -263,14 +242,6 @@ main p {
 
 main section {
     margin-bottom: 60px;
-}
-
-main .about_me p {
-    font-size: 3rem;
-}
-
-main .mission p {
-    font-size: 3rem;
 }
 
 main .experiencia .scrum, .frontend--developer{
@@ -352,49 +323,24 @@ main .experiencia .scrum, .frontend--developer{
 }
 
 .habilidades .css .color1 {
-    width: 60%;
+    width: 50%;
     background-color: #5E503F;
     color: #5E503F;
 }
 
 .habilidades .css .color2 {
-    width: 40%;
+    width: 50%;
     background-color: #C6AC8F;
     color: #C6AC8F;
 }
-
-.habilidades .javascript .color1 {
-    width: 10%;
-    background-color: #5E503F;
-    color: #5E503F;
-}
-
-.habilidades .javascript .color2 {
-    width: 90%;
-    background-color: #C6AC8F;
-    color: #C6AC8F;
-}
-
 .habilidades .java .color1 {
-    width: 20%;
+    width: 30%;
     background-color: #5E503F;
     color: #5E503F;
 }
 
 .habilidades .java .color2 {
-    width: 80%;
-    background-color: #C6AC8F;
-    color: #C6AC8F;
-}
-
-.habilidades .git .color1 {
-    width: 50%;
-    background-color: #5E503F;
-    color: #5E503F;
-}
-
-.habilidades .git .color2 {
-    width: 50%;
+    width: 70%;
     background-color: #C6AC8F;
     color: #C6AC8F;
 }
@@ -404,8 +350,7 @@ main .experiencia .scrum, .frontend--developer{
 }
 
 .certificados_texto{
-    margin-bottom: 7rem;
-    margin-top: 9rem;
+    margin-bottom: 30px;
 }
 
 .certificados {
@@ -418,7 +363,6 @@ main .experiencia .scrum, .frontend--developer{
 .certificados article {
     padding: 10px;
     border-radius: 15px;
-    margin-bottom: 7rem;
 }
 
 .certificados article .texto p {

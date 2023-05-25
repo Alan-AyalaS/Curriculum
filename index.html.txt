@@ -34,7 +34,7 @@
                     <figure class="cel_logo">
                         <img src="https://www.pngkit.com/png/full/98-981549_resultado-de-imagen-para-icono-telefono-blanco-phone.png" alt="" width="20px">
                     </figure>
-                    <p>+52 81 27 31 65 04</p>
+                    <p>+5181818181</p>
                 </article>
                 <article class="correo">
                     <figure class="correo_logo">
@@ -61,23 +61,16 @@
                     <p class="prepa_periodo">2017 - 2019</p>
                 </article> -->
                 <article class="facu">
-                    <p class="facu_nombre">FIME</p>
+                    <p>FIME</p>
                     <figure class="facu_logo">
                         <img src="https://biblioteca.experienciavirtualfime.com.mx/assets/Logo.8ef57795.png" alt="" width="76px">
                         <p class="carrera">Ingeniero Administrador de Sistemas</p>
-                        <p class="carrera_desc">Former student of System Engineer, current studyng 7th semester</p>
                         <p class="facu_periodo">2020 - presente</p>
                     </figure>
                 </article>
             </section>
             <section class="idiomas">
                 <h2>LANGUAGES</h2>
-                <article class="spanish">
-                    <p>Spanish</p>
-                    <div class="barra">
-                        <p class="color1">100% / Native</p>
-                    </div>
-                </article>
                 <article class="ingles">
                     <p>English</p>
                     <div class="barra">
@@ -107,15 +100,11 @@
              </section>
     </aside>
     <main>
-        <section class="about_me">
-            <h2>ABOUT ME</h2>
-            <p>My career goal is to learn and grow professionally to provide a high quality software development and consulting service. I have a great ability to listen and communicate</p>
+        <section class="perfil">
+            <h2>PROFILE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deserunt magnam ex voluptate, consequatur, enim natus eaque reprehenderit dolorum perspiciatis facilis explicabo numquam suscipit voluptas unde pariatur tempora eos soluta..</p>
         </section>
-        <section class="mission">
-            <h2>MISSION</h2>
-            <p>Comprometido con mi carrera para desarrollar sistemas</p>
-        </section>
-        <!-- <section class="experiencia">
+        <section class="experiencia">
             <h2>EXPERIENCE</h2>
             <article class="scrum">
                 <div class="periodo--materia">
@@ -137,7 +126,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, voluptatem provident odio nobis quae cum tenetur maxime natus, suscipit perspiciatis quo quod omnis sint doloribus. Praesentium deleniti cum dignissimos et.</p>
                 </div>
             </article>
-        </section> -->
+        </section>
         <section class="habilidades">
             <h2>PROFESSIONAL SKILLS</h2>
                 <article class="html">
@@ -158,15 +147,6 @@
                             <p class="color2">Lorem ipsum dolor </p>
                         </div>
                 </article>
-                <article class="javascript">
-                    <div class = "texto">
-                        <p>JavaScript</p>
-                    </div>
-                        <div class="barra">
-                            <p class="color1">javascript</p>
-                            <p class="color2">Lorem ipsum dolor </p>
-                        </div>
-                </article>
                 <article class="java" >
                     <div class="texto">
                         <p class="texto texto_java">JAVA</p>
@@ -176,16 +156,6 @@
                             <p class="color2">Lorem ipsum dolor </p>
                         </div>
                 </article>
-                <article class="git" >
-                    <div class="texto">
-                        <p class="texto texto_git">GIT</p>
-                    </div>
-                        <div class="barra">
-                            <p class="color1">git</p>
-                            <p class="color2">Lorem ipsum dolor </p>
-                        </div>
-                </article>
-
         </section>
         <h2 class="certificados_texto">CERTIFICATES</h2>
         <section class="certificados">
